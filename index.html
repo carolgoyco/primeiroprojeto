@@ -11,8 +11,16 @@
     <main>
 
     <script>
+        var nomeInserido = prompt("Insira seu nome")
+        var sobrenomeInserido = prompt("Insira seu sobrenome")
+        var anoNascimento = prompt("Insira o ano em que você nasceu")
+        var nascimento = parseInt(anoNascimento)
+        var anoAtual = prompt("Insira o ano atual")
+        var ano = parseInt(anoAtual)
+        var idade = ano - nascimento
 
-        
+        alert("Olá, " + nomeInserido + " " + sobrenomeInserido + "!")
+        alert("Você tem " + idade + " anos.")
 
     </script>
 </main>
